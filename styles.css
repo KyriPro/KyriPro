@@ -1,0 +1,15 @@
+body{
+    background: linear-gradient(#408, #80f);
+    background-attachment: fixed;
+    font-size: 30px;
+    font-family: verdana;
+    color: white;
+}
+button{
+    background-color: #408;
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: 1em 2em;
+    font-size: 1em;
+    color: white;
+}
