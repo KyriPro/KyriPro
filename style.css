@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(#408, #80f);
+    background-attachment: fixed;
+    font-size: 30px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-shadow: 2px 2px #408, 4px 4px #306, 6px 6px #204, 8px 8px #102;
+}
+.topleft{
+    font-size: 1vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+button{
+    padding: 1em 2em;
+    font-size: 1em;
+    border: 2px solid white;
+    background-color: #408;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px #408;
+    transition-duration: 0.5s;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: #80f;
+}
+button:active{
+    translate: 0 5px;
+    box-shadow: 0 5px #408;
+}
+hr{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.NavBar{
+    width: 100%;
+    overflow: hidden;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NavBarIcon{
+    width: 28px;
+    height: 28px;
+}
