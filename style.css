@@ -63,12 +63,13 @@ hr{
 .NewsBreaking{
     width: 350px;
     height: 200px;
-    Background-color: #c00;
+    background-color: #c00;
     overflow-y: auto;
     margin: 5px;
     border: 2px solid white;
     border-radius: 20px;
 }
+/*
 .NewsGlobal{
     width: 350px;
     height: 150px;
@@ -78,6 +79,7 @@ hr{
     border: 2px solid white;
     border-radius: 20px;
 }
+*/
 .News{
     display: flex;
     justify-content: center;
