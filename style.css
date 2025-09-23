@@ -51,3 +51,37 @@ hr{
     width: 28px;
     height: 28px;
 }
+.NewsLocal{
+    width: 300px;
+    height: 150px;
+    background-color: #408;
+    overflow-y: auto;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.NewsBreaking{
+    width: 350px;
+    height: 200px;
+    background-color: #c00;
+    overflow-y: auto;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+/*
+.NewsGlobal{
+    width: 350px;
+    height: 150px;
+    background-color: #0f0;
+    overflow-y: auto;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+*/
+.News{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
